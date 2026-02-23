@@ -1,0 +1,5 @@
+VSCode
+Localsend
+Winboat
+neovim
+chrome

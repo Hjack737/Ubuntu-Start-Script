@@ -1,0 +1,8 @@
+fzf
+ripgrep
+fd
+unzip
+dconf-cli
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
