@@ -78,10 +78,10 @@ if [[ "$APP_NAME" != *"neovim"* ]]; then
     wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip"
     wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaCode.zip"
 
-    sudo unzip "./JetBrainsMono-1.0.3.zip"
+    sudo unzip -o "./JetBrainsMono-1.0.3.zip"
     sudo cp "./JetBrainsMono-1.0.3/ttf/*" "~/.fonts"
-    sudo unzip "FiraCode.zip" -d ~/.fonts
-    sudo unzip "CascadiaCode.zip" -d ~/.fonts
+    sudo unzip -o "FiraCode.zip" -d ~/.fonts
+    sudo unzip -o "CascadiaCode.zip" -d ~/.fonts
     sudo rm -rf ./JetBrainsMono-1.0.3.zip
     sudo rm -rf ./JetBrainsMono-1.0.3
     sudo rm -rf ./FiraCode.zip
