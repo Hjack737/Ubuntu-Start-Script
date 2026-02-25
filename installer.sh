@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #   ---Variables---
-requirements=$(curl  -s "")
-Apps=$(curl  -s "")
+requirements=$(curl  -s "https://raw.githubusercontent.com/Hjack737/Ubuntu-Start-Script/refs/heads/main/requirements.txt")
+Apps=$(curl  -s "https://raw.githubusercontent.com/Hjack737/Ubuntu-Start-Script/refs/heads/main/apps.txt")
 APP_NAME=""
 NO_APP=false
 
